@@ -1,0 +1,93 @@
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    background-image: url(bg2.jpg);
+}
+
+h1{
+    text-align: center;
+}
+
+.icon{
+    width: 95px;
+    height: 95px;
+    border-radius: 80%;
+    position: absolute;
+    top: -15%;
+    left: calc(47% - 47px);
+}
+
+fieldset{
+    width: 220px;
+    height: 400px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    box-sizing: border-box;
+    border-color: lightskyblue;
+
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+border: none;
+border-bottom: 1px solid #fff;
+background: transparent;
+outline: none;
+height: 40px;
+color: #fff;
+font-size: 16px;
+font-weight: bold ;
+
+}
+
+.loginbox button[type="submit"]
+{
+    border: none;
+    outline: none;
+    width: 320px;
+    height: 40px;
+    background: black;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+
+.loginbox button[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #fff;
+    color: #000;
+}
+
+a{
+    text-align: justify;
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+a:hover{
+    color:bisque;
+    cursor: pointer;
+}
